@@ -9,3 +9,8 @@
 html{
     scroll-behavior: smooth;                        /* Hacemos que el Scroll sea mas lento */
 }
+.efectoImagen:hover{
+    filter: opacity(50%);           /* Efecto opaco a la imagen */
+    transition: 350ms;              /* Efecto tardio en milisegungos */
+    cursor: pointer;                /* hace aparecer la mano como cursos del Mouse */
+}
